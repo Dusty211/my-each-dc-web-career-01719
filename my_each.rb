@@ -9,6 +9,6 @@ def my_each(array)
     end
   array
   else
-    puts "No block was given."
+    array
   end
 end
