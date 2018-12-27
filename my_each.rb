@@ -15,6 +15,6 @@ end
 
 test_array = [0, 1, 2, 3, 4]
 
-my_each(test_array) {|num| 1 + num}
+my_each(test_array)
 
 puts test_array
