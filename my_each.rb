@@ -12,3 +12,9 @@ def my_each(array)
     array
   end
 end
+
+test_array = [0, 1, 2, 3, 4]
+
+my_each(test_array) {|num| 1 + num}
+
+puts test_array
